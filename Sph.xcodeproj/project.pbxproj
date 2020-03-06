@@ -16,19 +16,15 @@
 		D3225A9F2411561800C9B3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3225A9D2411561800C9B3F0 /* LaunchScreen.storyboard */; };
 		D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225AA92411561800C9B3F0 /* SphTests.swift */; };
 		D3225AB52411561800C9B3F0 /* SphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225AB42411561800C9B3F0 /* SphUITests.swift */; };
-		D345F8D024117203008DCBEA /* RGNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */; };
-		D345F8D124117203008DCBEA /* RGNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */; };
-		D345F8D224117203008DCBEA /* RGNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CD24117203008DCBEA /* RGNetwork.swift */; };
-		D345F8D324117203008DCBEA /* RGNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CD24117203008DCBEA /* RGNetwork.swift */; };
-		D345F8D424117203008DCBEA /* RGToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CE24117203008DCBEA /* RGToast.swift */; };
-		D345F8D524117203008DCBEA /* RGToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CE24117203008DCBEA /* RGToast.swift */; };
-		D345F8D624117203008DCBEA /* RGNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CF24117203008DCBEA /* RGNetworkError.swift */; };
-		D345F8D724117203008DCBEA /* RGNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CF24117203008DCBEA /* RGNetworkError.swift */; };
-		D345F8DB2411EB7D008DCBEA /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8D92411EB7D008DCBEA /* ListTableViewCell.swift */; };
-		D345F8DD2412050A008DCBEA /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DC2412050A008DCBEA /* showSelectYear.swift */; };
 		D345F8E02412065B008DCBEA /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DF2412065B008DCBEA /* common.swift */; };
 		D356A7EB241224F000404AE1 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EA241224F000404AE1 /* DbManager.m */; };
 		D356A7EC241224F000404AE1 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EA241224F000404AE1 /* DbManager.m */; };
+		D356A7EF24122ADE00404AE1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */; };
+		D356A7F024122ADE00404AE1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */; };
+		D356A7F124122ADE00404AE1 /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EE24122ADE00404AE1 /* showSelectYear.swift */; };
+		D356A7F224122ADE00404AE1 /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EE24122ADE00404AE1 /* showSelectYear.swift */; };
+		D356A7F32412322B00404AE1 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DF2412065B008DCBEA /* common.swift */; };
+		ED2D194F7EFA96375CDC2D2A /* libPods-Sph-SphTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391A56BBE2CB27D8A848A44D /* libPods-Sph-SphTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		2694FDCC36043270CFC17BB4 /* libPods-Sph.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sph.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391A56BBE2CB27D8A848A44D /* libPods-Sph-SphTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sph-SphTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E54A497FE573DE9F745C01 /* Pods-Sph-SphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph-SphTests.debug.xcconfig"; path = "Target Support Files/Pods-Sph-SphTests/Pods-Sph-SphTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A913CE5AB7E7DA1B165455B5 /* Pods-Sph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph.debug.xcconfig"; path = "Target Support Files/Pods-Sph/Pods-Sph.debug.xcconfig"; sourceTree = "<group>"; };
 		D3225A8F2411561000C9B3F0 /* Sph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3225A922411561000C9B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,17 +63,15 @@
 		D3225AB02411561800C9B3F0 /* SphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3225AB42411561800C9B3F0 /* SphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphUITests.swift; sourceTree = "<group>"; };
 		D3225AB62411561800C9B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGNetworkConfig.swift; sourceTree = "<group>"; };
-		D345F8CD24117203008DCBEA /* RGNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGNetwork.swift; sourceTree = "<group>"; };
-		D345F8CE24117203008DCBEA /* RGToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGToast.swift; sourceTree = "<group>"; };
-		D345F8CF24117203008DCBEA /* RGNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGNetworkError.swift; sourceTree = "<group>"; };
-		D345F8DA2411EB7D008DCBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "../../../../Downloads/RGNetwork-master/RGNetwork/Base.lproj/ListTableViewCell.swift"; sourceTree = "<group>"; };
-		D345F8DC2412050A008DCBEA /* showSelectYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = showSelectYear.swift; path = "../../../../Downloads/RGNetwork-master/RGNetwork/showSelectYear.swift"; sourceTree = "<group>"; };
 		D345F8DF2412065B008DCBEA /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = common.swift; path = "../../../../Downloads/RGNetwork-master/RGNetwork/common.swift"; sourceTree = "<group>"; };
 		D356A7E8241224EF00404AE1 /* SphTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SphTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D356A7E9241224EF00404AE1 /* DbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbManager.h; sourceTree = "<group>"; };
 		D356A7EA241224F000404AE1 /* DbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbManager.m; sourceTree = "<group>"; };
+		D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		D356A7EE24122ADE00404AE1 /* showSelectYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showSelectYear.swift; sourceTree = "<group>"; };
+		D356A7F42412325700404AE1 /* showSelectYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = showSelectYear.swift; path = Sph/View/showSelectYear.swift; sourceTree = "<group>"; };
 		D3FFEF04241159880015E243 /* swift-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-bridging.h"; sourceTree = "<group>"; };
+		DBD0E0463BB50015F7F970DB /* Pods-Sph-SphTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph-SphTests.release.xcconfig"; path = "Target Support Files/Pods-Sph-SphTests/Pods-Sph-SphTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED392328493B042C0D830EBC /* Pods-Sph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph.release.xcconfig"; path = "Target Support Files/Pods-Sph/Pods-Sph.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2D194F7EFA96375CDC2D2A /* libPods-Sph-SphTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +107,8 @@
 			children = (
 				A913CE5AB7E7DA1B165455B5 /* Pods-Sph.debug.xcconfig */,
 				ED392328493B042C0D830EBC /* Pods-Sph.release.xcconfig */,
+				56E54A497FE573DE9F745C01 /* Pods-Sph-SphTests.debug.xcconfig */,
+				DBD0E0463BB50015F7F970DB /* Pods-Sph-SphTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -118,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				2694FDCC36043270CFC17BB4 /* libPods-Sph.a */,
+				391A56BBE2CB27D8A848A44D /* libPods-Sph-SphTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +125,7 @@
 		D3225A862411560F00C9B3F0 = {
 			isa = PBXGroup;
 			children = (
+				D356A7F42412325700404AE1 /* showSelectYear.swift */,
 				D3225A912411561000C9B3F0 /* Sph */,
 				D3225AA82411561800C9B3F0 /* SphTests */,
 				D3225AB32411561800C9B3F0 /* SphUITests */,
@@ -181,22 +182,11 @@
 			path = SphUITests;
 			sourceTree = "<group>";
 		};
-		D345F8CB24117203008DCBEA /* RGNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */,
-				D345F8CD24117203008DCBEA /* RGNetwork.swift */,
-				D345F8CE24117203008DCBEA /* RGToast.swift */,
-				D345F8CF24117203008DCBEA /* RGNetworkError.swift */,
-			);
-			path = RGNetwork;
-			sourceTree = "<group>";
-		};
 		D345F8D82411EAFF008DCBEA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D345F8D92411EB7D008DCBEA /* ListTableViewCell.swift */,
-				D345F8DC2412050A008DCBEA /* showSelectYear.swift */,
+				D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */,
+				D356A7EE24122ADE00404AE1 /* showSelectYear.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,7 +212,6 @@
 		D3FFEF05241161390015E243 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				D345F8CB24117203008DCBEA /* RGNetwork */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -252,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3225ABC2411561800C9B3F0 /* Build configuration list for PBXNativeTarget "SphTests" */;
 			buildPhases = (
+				5BD0FC343622EF4C6093A9A1 /* [CP] Check Pods Manifest.lock */,
 				D3225AA12411561800C9B3F0 /* Sources */,
 				D3225AA22411561800C9B3F0 /* Frameworks */,
 				D3225AA32411561800C9B3F0 /* Resources */,
@@ -378,6 +368,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5BD0FC343622EF4C6093A9A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sph-SphTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -385,17 +397,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D345F8DD2412050A008DCBEA /* showSelectYear.swift in Sources */,
 				D3225A972411561000C9B3F0 /* ViewController.swift in Sources */,
-				D345F8DB2411EB7D008DCBEA /* ListTableViewCell.swift in Sources */,
-				D345F8D024117203008DCBEA /* RGNetworkConfig.swift in Sources */,
 				D345F8E02412065B008DCBEA /* common.swift in Sources */,
 				D356A7EB241224F000404AE1 /* DbManager.m in Sources */,
-				D345F8D424117203008DCBEA /* RGToast.swift in Sources */,
 				D3225A932411561000C9B3F0 /* AppDelegate.swift in Sources */,
+				D356A7F124122ADE00404AE1 /* showSelectYear.swift in Sources */,
 				D3225A952411561000C9B3F0 /* SceneDelegate.swift in Sources */,
-				D345F8D224117203008DCBEA /* RGNetwork.swift in Sources */,
-				D345F8D624117203008DCBEA /* RGNetworkError.swift in Sources */,
+				D356A7EF24122ADE00404AE1 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,12 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D345F8D524117203008DCBEA /* RGToast.swift in Sources */,
+				D356A7F224122ADE00404AE1 /* showSelectYear.swift in Sources */,
+				D356A7F32412322B00404AE1 /* common.swift in Sources */,
 				D356A7EC241224F000404AE1 /* DbManager.m in Sources */,
-				D345F8D724117203008DCBEA /* RGNetworkError.swift in Sources */,
 				D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */,
-				D345F8D124117203008DCBEA /* RGNetworkConfig.swift in Sources */,
-				D345F8D324117203008DCBEA /* RGNetwork.swift in Sources */,
+				D356A7F024122ADE00404AE1 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,14 +457,6 @@
 				D3225A9E2411561800C9B3F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D345F8D92411EB7D008DCBEA /* ListTableViewCell.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D345F8DA2411EB7D008DCBEA /* Base */,
-			);
-			name = ListTableViewCell.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -591,7 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.Sph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/qingtianlanyue1/Desktop/Sph/Sph/swift-bridging.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sph/swift-bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -611,7 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.Sph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/qingtianlanyue1/Desktop/Sph/Sph/swift-bridging.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sph/swift-bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -619,11 +618,14 @@
 		};
 		D3225ABD2411561800C9B3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E54A497FE573DE9F745C01 /* Pods-Sph-SphTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z7VG4R2UU;
 				INFOPLIST_FILE = SphTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -633,7 +635,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.SphTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Sph/Tools/SphTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sph/swift-bridging.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -643,11 +645,13 @@
 		};
 		D3225ABE2411561800C9B3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD0E0463BB50015F7F970DB /* Pods-Sph-SphTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z7VG4R2UU;
 				INFOPLIST_FILE = SphTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -657,7 +661,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.SphTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Sph/Tools/SphTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sph/swift-bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sph.app/Sph";
@@ -668,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SphUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -687,6 +692,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SphUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

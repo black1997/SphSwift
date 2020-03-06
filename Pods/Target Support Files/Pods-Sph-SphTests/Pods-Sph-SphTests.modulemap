@@ -1,0 +1,6 @@
+module Pods_Sph_SphTests {
+  umbrella header "Pods-Sph-SphTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

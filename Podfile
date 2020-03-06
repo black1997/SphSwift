@@ -7,4 +7,9 @@ target 'Sph' do
   pod 'MBProgressHUD'
   pod 'Masonry'
   pod 'FMDB'
+  
+  target 'SphTests' do
+    pod 'Alamofire'
+    pod 'FMDB'
+  end
 end
