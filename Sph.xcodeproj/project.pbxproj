@@ -16,14 +16,14 @@
 		D3225A9F2411561800C9B3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3225A9D2411561800C9B3F0 /* LaunchScreen.storyboard */; };
 		D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225AA92411561800C9B3F0 /* SphTests.swift */; };
 		D3225AB52411561800C9B3F0 /* SphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225AB42411561800C9B3F0 /* SphUITests.swift */; };
-		D345F8E02412065B008DCBEA /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DF2412065B008DCBEA /* common.swift */; };
 		D356A7EB241224F000404AE1 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EA241224F000404AE1 /* DbManager.m */; };
 		D356A7EC241224F000404AE1 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EA241224F000404AE1 /* DbManager.m */; };
 		D356A7EF24122ADE00404AE1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */; };
 		D356A7F024122ADE00404AE1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */; };
-		D356A7F124122ADE00404AE1 /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EE24122ADE00404AE1 /* showSelectYear.swift */; };
-		D356A7F224122ADE00404AE1 /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EE24122ADE00404AE1 /* showSelectYear.swift */; };
-		D356A7F32412322B00404AE1 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DF2412065B008DCBEA /* common.swift */; };
+		D356A7FD241238A000404AE1 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7FC241238A000404AE1 /* common.swift */; };
+		D356A7FF24123ABA00404AE1 /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7FE24123ABA00404AE1 /* showSelectYear.swift */; };
+		D356A80024123ABA00404AE1 /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7FE24123ABA00404AE1 /* showSelectYear.swift */; };
+		D356A80124123B4800404AE1 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356A7FC241238A000404AE1 /* common.swift */; };
 		ED2D194F7EFA96375CDC2D2A /* libPods-Sph-SphTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391A56BBE2CB27D8A848A44D /* libPods-Sph-SphTests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,13 +63,12 @@
 		D3225AB02411561800C9B3F0 /* SphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3225AB42411561800C9B3F0 /* SphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphUITests.swift; sourceTree = "<group>"; };
 		D3225AB62411561800C9B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D345F8DF2412065B008DCBEA /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = common.swift; path = "../../../../Downloads/RGNetwork-master/RGNetwork/common.swift"; sourceTree = "<group>"; };
 		D356A7E8241224EF00404AE1 /* SphTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SphTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D356A7E9241224EF00404AE1 /* DbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbManager.h; sourceTree = "<group>"; };
 		D356A7EA241224F000404AE1 /* DbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbManager.m; sourceTree = "<group>"; };
 		D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
-		D356A7EE24122ADE00404AE1 /* showSelectYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showSelectYear.swift; sourceTree = "<group>"; };
-		D356A7F42412325700404AE1 /* showSelectYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = showSelectYear.swift; path = Sph/View/showSelectYear.swift; sourceTree = "<group>"; };
+		D356A7FC241238A000404AE1 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		D356A7FE24123ABA00404AE1 /* showSelectYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showSelectYear.swift; sourceTree = "<group>"; };
 		D3FFEF04241159880015E243 /* swift-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-bridging.h"; sourceTree = "<group>"; };
 		DBD0E0463BB50015F7F970DB /* Pods-Sph-SphTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph-SphTests.release.xcconfig"; path = "Target Support Files/Pods-Sph-SphTests/Pods-Sph-SphTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED392328493B042C0D830EBC /* Pods-Sph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph.release.xcconfig"; path = "Target Support Files/Pods-Sph/Pods-Sph.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +124,6 @@
 		D3225A862411560F00C9B3F0 = {
 			isa = PBXGroup;
 			children = (
-				D356A7F42412325700404AE1 /* showSelectYear.swift */,
 				D3225A912411561000C9B3F0 /* Sph */,
 				D3225AA82411561800C9B3F0 /* SphTests */,
 				D3225AB32411561800C9B3F0 /* SphUITests */,
@@ -185,8 +183,8 @@
 		D345F8D82411EAFF008DCBEA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D356A7FE24123ABA00404AE1 /* showSelectYear.swift */,
 				D356A7ED24122ADD00404AE1 /* ListTableViewCell.swift */,
-				D356A7EE24122ADE00404AE1 /* showSelectYear.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,7 +192,7 @@
 		D345F8DE24120626008DCBEA /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D345F8DF2412065B008DCBEA /* common.swift */,
+				D356A7FC241238A000404AE1 /* common.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -397,11 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D356A7FD241238A000404AE1 /* common.swift in Sources */,
 				D3225A972411561000C9B3F0 /* ViewController.swift in Sources */,
-				D345F8E02412065B008DCBEA /* common.swift in Sources */,
 				D356A7EB241224F000404AE1 /* DbManager.m in Sources */,
 				D3225A932411561000C9B3F0 /* AppDelegate.swift in Sources */,
-				D356A7F124122ADE00404AE1 /* showSelectYear.swift in Sources */,
+				D356A7FF24123ABA00404AE1 /* showSelectYear.swift in Sources */,
 				D3225A952411561000C9B3F0 /* SceneDelegate.swift in Sources */,
 				D356A7EF24122ADE00404AE1 /* ListTableViewCell.swift in Sources */,
 			);
@@ -411,9 +409,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D356A7F224122ADE00404AE1 /* showSelectYear.swift in Sources */,
-				D356A7F32412322B00404AE1 /* common.swift in Sources */,
+				D356A80124123B4800404AE1 /* common.swift in Sources */,
 				D356A7EC241224F000404AE1 /* DbManager.m in Sources */,
+				D356A80024123ABA00404AE1 /* showSelectYear.swift in Sources */,
 				D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */,
 				D356A7F024122ADE00404AE1 /* ListTableViewCell.swift in Sources */,
 			);
