@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.0.2)
+  - AlamofireNetworkActivityIndicator (3.0.1):
+    - Alamofire (~> 5.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - FMDB
+  - Masonry
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  AlamofireNetworkActivityIndicator: f7d4cd8d12bcf61dc569cbe000b0c35e9c8d8d32
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: b1cc4836341750b4080f999c410146637c67c77d
+
+COCOAPODS: 1.9.0

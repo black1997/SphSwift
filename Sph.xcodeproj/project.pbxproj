@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793D4E2640314F0315A214F0 /* libPods-Sph.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2694FDCC36043270CFC17BB4 /* libPods-Sph.a */; };
 		D3225A932411561000C9B3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225A922411561000C9B3F0 /* AppDelegate.swift */; };
 		D3225A952411561000C9B3F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225A942411561000C9B3F0 /* SceneDelegate.swift */; };
 		D3225A972411561000C9B3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225A962411561000C9B3F0 /* ViewController.swift */; };
@@ -15,6 +16,19 @@
 		D3225A9F2411561800C9B3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3225A9D2411561800C9B3F0 /* LaunchScreen.storyboard */; };
 		D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225AA92411561800C9B3F0 /* SphTests.swift */; };
 		D3225AB52411561800C9B3F0 /* SphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225AB42411561800C9B3F0 /* SphUITests.swift */; };
+		D345F8D024117203008DCBEA /* RGNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */; };
+		D345F8D124117203008DCBEA /* RGNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */; };
+		D345F8D224117203008DCBEA /* RGNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CD24117203008DCBEA /* RGNetwork.swift */; };
+		D345F8D324117203008DCBEA /* RGNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CD24117203008DCBEA /* RGNetwork.swift */; };
+		D345F8D424117203008DCBEA /* RGToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CE24117203008DCBEA /* RGToast.swift */; };
+		D345F8D524117203008DCBEA /* RGToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CE24117203008DCBEA /* RGToast.swift */; };
+		D345F8D624117203008DCBEA /* RGNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CF24117203008DCBEA /* RGNetworkError.swift */; };
+		D345F8D724117203008DCBEA /* RGNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8CF24117203008DCBEA /* RGNetworkError.swift */; };
+		D345F8DB2411EB7D008DCBEA /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8D92411EB7D008DCBEA /* ListTableViewCell.swift */; };
+		D345F8DD2412050A008DCBEA /* showSelectYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DC2412050A008DCBEA /* showSelectYear.swift */; };
+		D345F8E02412065B008DCBEA /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345F8DF2412065B008DCBEA /* common.swift */; };
+		D356A7EB241224F000404AE1 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EA241224F000404AE1 /* DbManager.m */; };
+		D356A7EC241224F000404AE1 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D356A7EA241224F000404AE1 /* DbManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2694FDCC36043270CFC17BB4 /* libPods-Sph.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sph.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A913CE5AB7E7DA1B165455B5 /* Pods-Sph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph.debug.xcconfig"; path = "Target Support Files/Pods-Sph/Pods-Sph.debug.xcconfig"; sourceTree = "<group>"; };
 		D3225A8F2411561000C9B3F0 /* Sph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3225A922411561000C9B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3225A942411561000C9B3F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,18 @@
 		D3225AB02411561800C9B3F0 /* SphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3225AB42411561800C9B3F0 /* SphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphUITests.swift; sourceTree = "<group>"; };
 		D3225AB62411561800C9B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGNetworkConfig.swift; sourceTree = "<group>"; };
+		D345F8CD24117203008DCBEA /* RGNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGNetwork.swift; sourceTree = "<group>"; };
+		D345F8CE24117203008DCBEA /* RGToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGToast.swift; sourceTree = "<group>"; };
+		D345F8CF24117203008DCBEA /* RGNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGNetworkError.swift; sourceTree = "<group>"; };
+		D345F8DA2411EB7D008DCBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "../../../../Downloads/RGNetwork-master/RGNetwork/Base.lproj/ListTableViewCell.swift"; sourceTree = "<group>"; };
+		D345F8DC2412050A008DCBEA /* showSelectYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = showSelectYear.swift; path = "../../../../Downloads/RGNetwork-master/RGNetwork/showSelectYear.swift"; sourceTree = "<group>"; };
+		D345F8DF2412065B008DCBEA /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = common.swift; path = "../../../../Downloads/RGNetwork-master/RGNetwork/common.swift"; sourceTree = "<group>"; };
+		D356A7E8241224EF00404AE1 /* SphTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SphTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D356A7E9241224EF00404AE1 /* DbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbManager.h; sourceTree = "<group>"; };
+		D356A7EA241224F000404AE1 /* DbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbManager.m; sourceTree = "<group>"; };
+		D3FFEF04241159880015E243 /* swift-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-bridging.h"; sourceTree = "<group>"; };
+		ED392328493B042C0D830EBC /* Pods-Sph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph.release.xcconfig"; path = "Target Support Files/Pods-Sph/Pods-Sph.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793D4E2640314F0315A214F0 /* libPods-Sph.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		154903169D3E306F62FC4F5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A913CE5AB7E7DA1B165455B5 /* Pods-Sph.debug.xcconfig */,
+				ED392328493B042C0D830EBC /* Pods-Sph.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2B58D7BBC162A5C27D0589F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2694FDCC36043270CFC17BB4 /* libPods-Sph.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3225A862411560F00C9B3F0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				D3225AA82411561800C9B3F0 /* SphTests */,
 				D3225AB32411561800C9B3F0 /* SphUITests */,
 				D3225A902411561000C9B3F0 /* Products */,
+				154903169D3E306F62FC4F5B /* Pods */,
+				2B58D7BBC162A5C27D0589F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +147,10 @@
 		D3225A912411561000C9B3F0 /* Sph */ = {
 			isa = PBXGroup;
 			children = (
+				D356A7E7241224E100404AE1 /* Tools */,
+				D345F8DE24120626008DCBEA /* Common */,
+				D345F8D82411EAFF008DCBEA /* View */,
+				D3FFEF05241161390015E243 /* Lib */,
 				D3225A922411561000C9B3F0 /* AppDelegate.swift */,
 				D3225A942411561000C9B3F0 /* SceneDelegate.swift */,
 				D3225A962411561000C9B3F0 /* ViewController.swift */,
@@ -106,6 +158,7 @@
 				D3225A9B2411561700C9B3F0 /* Assets.xcassets */,
 				D3225A9D2411561800C9B3F0 /* LaunchScreen.storyboard */,
 				D3225AA02411561800C9B3F0 /* Info.plist */,
+				D3FFEF04241159880015E243 /* swift-bridging.h */,
 			);
 			path = Sph;
 			sourceTree = "<group>";
@@ -128,6 +181,52 @@
 			path = SphUITests;
 			sourceTree = "<group>";
 		};
+		D345F8CB24117203008DCBEA /* RGNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D345F8CC24117203008DCBEA /* RGNetworkConfig.swift */,
+				D345F8CD24117203008DCBEA /* RGNetwork.swift */,
+				D345F8CE24117203008DCBEA /* RGToast.swift */,
+				D345F8CF24117203008DCBEA /* RGNetworkError.swift */,
+			);
+			path = RGNetwork;
+			sourceTree = "<group>";
+		};
+		D345F8D82411EAFF008DCBEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D345F8D92411EB7D008DCBEA /* ListTableViewCell.swift */,
+				D345F8DC2412050A008DCBEA /* showSelectYear.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D345F8DE24120626008DCBEA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D345F8DF2412065B008DCBEA /* common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D356A7E7241224E100404AE1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D356A7E9241224EF00404AE1 /* DbManager.h */,
+				D356A7EA241224F000404AE1 /* DbManager.m */,
+				D356A7E8241224EF00404AE1 /* SphTests-Bridging-Header.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D3FFEF05241161390015E243 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D345F8CB24117203008DCBEA /* RGNetwork */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3225AB92411561800C9B3F0 /* Build configuration list for PBXNativeTarget "Sph" */;
 			buildPhases = (
+				46E4D10BD32A7FEFF36E6B3A /* [CP] Check Pods Manifest.lock */,
 				D3225A8B2411561000C9B3F0 /* Sources */,
 				D3225A8C2411561000C9B3F0 /* Frameworks */,
 				D3225A8D2411561000C9B3F0 /* Resources */,
@@ -199,6 +299,7 @@
 					};
 					D3225AA42411561800C9B3F0 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = D3225A8E2411561000C9B3F0;
 					};
 					D3225AAF2411561800C9B3F0 = {
@@ -254,14 +355,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46E4D10BD32A7FEFF36E6B3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3225A8B2411561000C9B3F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D345F8DD2412050A008DCBEA /* showSelectYear.swift in Sources */,
 				D3225A972411561000C9B3F0 /* ViewController.swift in Sources */,
+				D345F8DB2411EB7D008DCBEA /* ListTableViewCell.swift in Sources */,
+				D345F8D024117203008DCBEA /* RGNetworkConfig.swift in Sources */,
+				D345F8E02412065B008DCBEA /* common.swift in Sources */,
+				D356A7EB241224F000404AE1 /* DbManager.m in Sources */,
+				D345F8D424117203008DCBEA /* RGToast.swift in Sources */,
 				D3225A932411561000C9B3F0 /* AppDelegate.swift in Sources */,
 				D3225A952411561000C9B3F0 /* SceneDelegate.swift in Sources */,
+				D345F8D224117203008DCBEA /* RGNetwork.swift in Sources */,
+				D345F8D624117203008DCBEA /* RGNetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D345F8D524117203008DCBEA /* RGToast.swift in Sources */,
+				D356A7EC241224F000404AE1 /* DbManager.m in Sources */,
+				D345F8D724117203008DCBEA /* RGNetworkError.swift in Sources */,
 				D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */,
+				D345F8D124117203008DCBEA /* RGNetworkConfig.swift in Sources */,
+				D345F8D324117203008DCBEA /* RGNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +450,14 @@
 				D3225A9E2411561800C9B3F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D345F8D92411EB7D008DCBEA /* ListTableViewCell.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D345F8DA2411EB7D008DCBEA /* Base */,
+			);
+			name = ListTableViewCell.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,9 +579,11 @@
 		};
 		D3225ABA2411561800C9B3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A913CE5AB7E7DA1B165455B5 /* Pods-Sph.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z7VG4R2UU;
 				INFOPLIST_FILE = Sph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +591,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.Sph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/qingtianlanyue1/Desktop/Sph/Sph/swift-bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,9 +599,11 @@
 		};
 		D3225ABB2411561800C9B3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED392328493B042C0D830EBC /* Pods-Sph.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z7VG4R2UU;
 				INFOPLIST_FILE = Sph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.Sph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/qingtianlanyue1/Desktop/Sph/Sph/swift-bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +622,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SphTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -479,6 +633,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.SphTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sph/Tools/SphTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sph.app/Sph";
@@ -490,6 +646,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SphTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -500,6 +657,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenjuu.SphTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sph/Tools/SphTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sph.app/Sph";
