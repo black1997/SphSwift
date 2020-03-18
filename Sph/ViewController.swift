@@ -66,7 +66,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func getTheWebData() {
         let hub = MBProgressHUD.showAdded(to: self.view, animated: true)
-        AF.request("https://data.gov.sg/api/action/datastore_search?resource_id=a807b7ab-6cad-4aa6-87d0-e283a7353a0f").responseJSON { (dataResponse) in
+       
+        let config = URLSessionConfiguration.default
+        config.protocolClasses = [sphProtocol.self]
+        
+        let alamfir = Session.init(configuration: config)
+        
+        alamfir.request("https://data.gov.sg/api/action/datastore_search?resource_id=a807b7ab-6cad-4aa6-87d0-e283a7353a0f").responseJSON { (dataResponse) in
             DispatchQueue.main.async {
                 hub.hide(animated: true)
                 switch dataResponse.result{

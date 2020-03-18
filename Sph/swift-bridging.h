@@ -12,5 +12,7 @@
 #import "MBProgressHUD.h"
 #import "Masonry.h"
 #import "DbManager.h"
+#import "MockDataManager.h"
+#import "sphProtocol.h"
 
 #endif /* swift_bridging_h */

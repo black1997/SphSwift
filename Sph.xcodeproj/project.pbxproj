@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		793D4E2640314F0315A214F0 /* libPods-Sph.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2694FDCC36043270CFC17BB4 /* libPods-Sph.a */; };
+		C1B3A7F624224CC3000F01EB /* MockData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1B3A7F524224CC3000F01EB /* MockData.plist */; };
+		C1B3A7F724224CC3000F01EB /* MockData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1B3A7F524224CC3000F01EB /* MockData.plist */; };
+		C1B3A7FC24224D19000F01EB /* sphProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3A7FA24224D18000F01EB /* sphProtocol.m */; };
+		C1B3A7FD24224D19000F01EB /* sphProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3A7FA24224D18000F01EB /* sphProtocol.m */; };
+		C1B3A80024224D56000F01EB /* MockDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3A7FE24224D55000F01EB /* MockDataManager.m */; };
+		C1B3A80124224D56000F01EB /* MockDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3A7FE24224D55000F01EB /* MockDataManager.m */; };
 		D3225A932411561000C9B3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225A922411561000C9B3F0 /* AppDelegate.swift */; };
 		D3225A952411561000C9B3F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225A942411561000C9B3F0 /* SceneDelegate.swift */; };
 		D3225A972411561000C9B3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3225A962411561000C9B3F0 /* ViewController.swift */; };
@@ -49,6 +55,11 @@
 		391A56BBE2CB27D8A848A44D /* libPods-Sph-SphTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sph-SphTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E54A497FE573DE9F745C01 /* Pods-Sph-SphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph-SphTests.debug.xcconfig"; path = "Target Support Files/Pods-Sph-SphTests/Pods-Sph-SphTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A913CE5AB7E7DA1B165455B5 /* Pods-Sph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sph.debug.xcconfig"; path = "Target Support Files/Pods-Sph/Pods-Sph.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B3A7F524224CC3000F01EB /* MockData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MockData.plist; sourceTree = "<group>"; };
+		C1B3A7FA24224D18000F01EB /* sphProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sphProtocol.m; sourceTree = "<group>"; };
+		C1B3A7FB24224D18000F01EB /* sphProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphProtocol.h; sourceTree = "<group>"; };
+		C1B3A7FE24224D55000F01EB /* MockDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockDataManager.m; sourceTree = "<group>"; };
+		C1B3A7FF24224D55000F01EB /* MockDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockDataManager.h; sourceTree = "<group>"; };
 		D3225A8F2411561000C9B3F0 /* Sph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3225A922411561000C9B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3225A942411561000C9B3F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +211,11 @@
 		D356A7E7241224E100404AE1 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C1B3A7FF24224D55000F01EB /* MockDataManager.h */,
+				C1B3A7FE24224D55000F01EB /* MockDataManager.m */,
+				C1B3A7FB24224D18000F01EB /* sphProtocol.h */,
+				C1B3A7FA24224D18000F01EB /* sphProtocol.m */,
+				C1B3A7F524224CC3000F01EB /* MockData.plist */,
 				D356A7E9241224EF00404AE1 /* DbManager.h */,
 				D356A7EA241224F000404AE1 /* DbManager.m */,
 				D356A7E8241224EF00404AE1 /* SphTests-Bridging-Header.h */,
@@ -321,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B3A7F624224CC3000F01EB /* MockData.plist in Resources */,
 				D3225A9F2411561800C9B3F0 /* LaunchScreen.storyboard in Resources */,
 				D3225A9C2411561700C9B3F0 /* Assets.xcassets in Resources */,
 				D3225A9A2411561000C9B3F0 /* Main.storyboard in Resources */,
@@ -331,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B3A7F724224CC3000F01EB /* MockData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +417,9 @@
 				D3225A972411561000C9B3F0 /* ViewController.swift in Sources */,
 				D356A7EB241224F000404AE1 /* DbManager.m in Sources */,
 				D3225A932411561000C9B3F0 /* AppDelegate.swift in Sources */,
+				C1B3A80024224D56000F01EB /* MockDataManager.m in Sources */,
 				D356A7FF24123ABA00404AE1 /* showSelectYear.swift in Sources */,
+				C1B3A7FC24224D19000F01EB /* sphProtocol.m in Sources */,
 				D3225A952411561000C9B3F0 /* SceneDelegate.swift in Sources */,
 				D356A7EF24122ADE00404AE1 /* ListTableViewCell.swift in Sources */,
 			);
@@ -409,9 +429,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B3A80124224D56000F01EB /* MockDataManager.m in Sources */,
 				D356A80124123B4800404AE1 /* common.swift in Sources */,
 				D356A7EC241224F000404AE1 /* DbManager.m in Sources */,
 				D356A80024123ABA00404AE1 /* showSelectYear.swift in Sources */,
+				C1B3A7FD24224D19000F01EB /* sphProtocol.m in Sources */,
 				D3225AAA2411561800C9B3F0 /* SphTests.swift in Sources */,
 				D356A7F024122ADE00404AE1 /* ListTableViewCell.swift in Sources */,
 			);
